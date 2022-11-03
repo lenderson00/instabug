@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <a href={url} >
+      <a href={url} target='_blank' rel='noopener noreferrer'>
 
       </a>
     </div>
