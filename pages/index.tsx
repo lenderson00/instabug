@@ -7,11 +7,7 @@ import {useEffect} from "react";
 const url = 'https://drive.google.com/drive/folders/1DWLWIWich_HGk1xWpcxxzoizswX2cxmU?usp=share_link'
 
 const Home: NextPage = () => {
-  useEffect(() => {
 
-    window.location.href = "https://drive.google.com/drive/folders/1DWLWIWich_HGk1xWpcxxzoizswX2cxmU?usp=share_link";
-
-  }, [])
   return (
     <div className={styles.container}>
       <Head>
